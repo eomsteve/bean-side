@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { Router as RemixRouter } from '@remix-run/router/dist/router';
+import MobileLayout from './layout/MobileLayout';
 import { HomePage } from './pages/Home';
 import { SplitBill } from './pages/SplitBill';
 import { ResultPage } from './pages/Result';
@@ -33,10 +34,10 @@ const pageMap: pageData[] = [
 ];
 
 export const routers: RemixRouter = createBrowserRouter(
-  pageMap.map(page => {
+  pageMap.map((page) => {
     return {
-      path : page.path,
-      element : page.element,
-    }
+      path: page.path,
+      element: <MobileLayout>{page.element}</MobileLayout>,
+    };
   })
 );
