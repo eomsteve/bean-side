@@ -4,4 +4,39 @@ import { HomePage } from './pages/Home';
 import { SplitBill } from './pages/SplitBill';
 import { ResultPage } from './pages/Result';
 
-export const routers : RemixRouter = createBrowserRouter();
+interface pageData {
+  id: number;
+  pageLabel: string;
+  path: string;
+  element: React.ReactNode;
+}
+
+const pageMap: pageData[] = [
+  {
+    id: 0,
+    pageLabel: '홈페이지',
+    path: '/',
+    element: <HomePage />,
+  },
+  {
+    id: 1,
+    pageLabel: '정산페이지',
+    path: '/tempSplitPage',
+    element: <SplitBill />,
+  },
+  {
+    id: 2,
+    pageLabel: '결과페이지',
+    path: '/result',
+    element: <ResultPage />,
+  },
+];
+
+export const routers: RemixRouter = createBrowserRouter(
+  pageMap.map(page => {
+    return {
+      path : page.path,
+      element : page.element,
+    }
+  })
+);
