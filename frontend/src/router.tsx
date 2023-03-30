@@ -22,7 +22,7 @@ const pageMap: pageData[] = [
   {
     id: 1,
     pageLabel: '정산페이지',
-    path: '/tempSplitPage',
+    path: '/tempSplitPage/*',
     element: <SplitBill />,
   },
   {
