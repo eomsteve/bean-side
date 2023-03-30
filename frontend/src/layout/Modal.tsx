@@ -8,3 +8,16 @@
   </Modal.Container>
   <Modal.Button type ></Modal.Button>
 </Modal> */}
+
+import { FC } from "react";
+import styled from "@emotion/styled";
+import { css }from "@emotion/react";
+interface ModalBasic {
+  closeFn : () => void;
+  children : React.ReactNode;
+}
+
+
+const BasicModalContainer : FC = ()=>{
+  return <></>
+}
