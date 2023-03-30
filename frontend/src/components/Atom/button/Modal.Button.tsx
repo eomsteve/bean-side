@@ -14,25 +14,24 @@ const getButtonStyles = ({ label }: ModalButtonTypes) => {
     `;
   }
   return css`
-     {
-      background-color: #caf4ff;
-      color: #3481f5;
-    }
+    background-color: #caf4ff;
+    color: #3481f5;
   `;
 };
 
 const Button = styled.button<ModalButtonTypes>`
-  width: 160px;
-  hight: 40px;
-  border-radius: '20px';
-  box-shadow: '0 1px 5px 0 rgba(0, 0, 0, 0.1)';
+  width: 10rem;
+  hight: 2.5rem;
+  padding: 0.7rem;
+  border-radius: 20px;
+  font-weight : bolder;
+  border :none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   ${(props) => getButtonStyles(props)}
 `;
 
 const ModalButton: FC<ModalButtonTypes> = ({ label }) => {
-  return <Button label={label}>
-    {label}
-  </Button>;
+  return <Button label={label}>{label}</Button>;
 };
 
 export default ModalButton;
