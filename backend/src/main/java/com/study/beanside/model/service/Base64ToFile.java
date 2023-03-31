@@ -1,4 +1,4 @@
-package com.ssafy.sonmogaji.model.service;
+package com.study.beanside.model.service;
 
 import org.springframework.web.multipart.MultipartFile;
 import javax.imageio.ImageIO;

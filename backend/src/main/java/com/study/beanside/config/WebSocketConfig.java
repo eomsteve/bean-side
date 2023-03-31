@@ -1,6 +1,6 @@
-package com.ssafy.sonmogaji.config;
+package com.study.beanside.config;
 
-import com.ssafy.sonmogaji.handler.CustomHandshakeHandler;
+import com.study.beanside.handler.CustomHandshakeHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.event.EventListener;

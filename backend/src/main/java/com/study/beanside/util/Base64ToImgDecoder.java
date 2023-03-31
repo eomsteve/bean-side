@@ -1,4 +1,4 @@
-package com.ssafy.sonmogaji.util;
+package com.study.beanside.util;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;

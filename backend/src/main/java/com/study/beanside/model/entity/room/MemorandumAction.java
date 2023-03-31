@@ -1,4 +1,4 @@
-package com.ssafy.sonmogaji.model.entity.room;
+package com.study.beanside.model.entity.room;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

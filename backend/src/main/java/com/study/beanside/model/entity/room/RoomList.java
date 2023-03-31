@@ -1,4 +1,4 @@
-package com.ssafy.sonmogaji.model.entity.room;
+package com.study.beanside.model.entity.room;
 
 import lombok.Getter;
 import lombok.extern.log4j.Log4j2;

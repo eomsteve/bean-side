@@ -1,8 +1,8 @@
-package com.ssafy.sonmogaji.controller;
+package com.study.beanside.controller;
 
 import com.fasterxml.jackson.databind.ser.Serializers;
-import com.ssafy.sonmogaji.model.entity.room.*;
-import com.ssafy.sonmogaji.model.service.Base64ToFile;
+import com.study.beanside.model.entity.room.*;
+import com.study.beanside.model.service.Base64ToFile;
 import lombok.*;
 import lombok.extern.log4j.Log4j2;
 import org.apache.commons.io.FileUtils;

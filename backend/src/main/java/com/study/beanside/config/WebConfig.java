@@ -1,4 +1,4 @@
-package com.ssafy.sonmogaji.config;
+package com.study.beanside.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

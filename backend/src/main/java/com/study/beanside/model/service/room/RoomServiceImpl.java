@@ -1,8 +1,8 @@
-package com.ssafy.sonmogaji.model.service.room;
+package com.study.beanside.model.service.room;
 
-import com.ssafy.sonmogaji.model.dto.RoomResponseDto;
-import com.ssafy.sonmogaji.model.entity.room.Room;
-import com.ssafy.sonmogaji.model.entity.room.RoomList;
+import com.study.beanside.model.dto.RoomResponseDto;
+import com.study.beanside.model.entity.room.Room;
+import com.study.beanside.model.entity.room.RoomList;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
 import lombok.extern.log4j.Log4j2;

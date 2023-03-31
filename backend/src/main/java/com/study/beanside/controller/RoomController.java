@@ -1,4 +1,4 @@
-package com.ssafy.sonmogaji.controller;
+package com.study.beanside.controller;
 
 
 //import com.ssafy.sonmogaji.model.dto.RoomRequestDto;

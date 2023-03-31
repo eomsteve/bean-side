@@ -1,6 +1,6 @@
-package com.ssafy.sonmogaji.model.service.room;
+package com.study.beanside.model.service.room;
 
-import com.ssafy.sonmogaji.model.dto.RoomResponseDto;
+import com.study.beanside.model.dto.RoomResponseDto;
 
 public interface RoomService {
 

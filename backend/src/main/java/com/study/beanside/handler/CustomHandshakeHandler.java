@@ -1,6 +1,6 @@
-package com.ssafy.sonmogaji.handler;
+package com.study.beanside.handler;
 
-import com.ssafy.sonmogaji.handler.StompPrincipal;
+import com.study.beanside.handler.StompPrincipal;
 import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.web.socket.WebSocketHandler;
 import org.springframework.web.socket.server.support.DefaultHandshakeHandler;

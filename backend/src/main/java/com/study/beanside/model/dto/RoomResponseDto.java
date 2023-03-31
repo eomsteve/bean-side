@@ -1,4 +1,4 @@
-package com.ssafy.sonmogaji.model.dto;
+package com.study.beanside.model.dto;
 
 
 import lombok.AllArgsConstructor;

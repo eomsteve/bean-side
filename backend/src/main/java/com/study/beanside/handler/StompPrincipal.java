@@ -1,4 +1,4 @@
-package com.ssafy.sonmogaji.handler;
+package com.study.beanside.handler;
 
 import java.security.Principal;
 
