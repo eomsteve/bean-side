@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import { Router as RemixRouter } from '@remix-run/router/dist/router';
 import MobileLayout from './layout/MobileLayout';
 import { HomePage } from './pages/Home';
-import { SplitBill } from './pages/SplitBill';
+import { SplitBill } from './pages/Bills';
 import { ResultPage } from './pages/Result';
 
 interface pageData {
@@ -22,7 +22,7 @@ const pageMap: pageData[] = [
   {
     id: 1,
     pageLabel: '정산페이지',
-    path: '/tempSplitPage',
+    path: '/tempSplitPage/*',
     element: <SplitBill />,
   },
   {
