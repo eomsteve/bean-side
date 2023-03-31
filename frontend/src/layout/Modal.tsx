@@ -18,6 +18,6 @@ interface ModalBasic {
 }
 
 
-const BasicModalContainer : FC = ()=>{
+const Modal : FC = ()=>{
   return <></>
 }
