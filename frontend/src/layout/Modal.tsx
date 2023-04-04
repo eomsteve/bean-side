@@ -57,7 +57,7 @@ const Modal: FC<ModalBasic> = ({ children, closeFn, title, label }) => {
         {title ? <ModalTitle>{title}</ModalTitle> : ''}
       </ModalHeader>
       {children}
-      <ModalButton label={'삭제'} />
+      <ModalButton label={'닫기'} />
     </ModalContents>
   );
 };
