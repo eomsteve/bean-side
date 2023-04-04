@@ -16,7 +16,7 @@ const CloseButton = styled.div`
 const ModalClose: FC<ModalCloseProps> = () => {
   return (
     <CloseButton>
-      <svg
+      <svg style={{ cursor : 'pointer'}}
         width="14"
         height="14"
         viewBox="0 0 14 14"

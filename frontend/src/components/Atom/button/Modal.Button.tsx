@@ -29,8 +29,9 @@ const Button = styled.button<ModalButtonTypes>`
   font-weight : bolder;
   border :none;
   margin-top :15px;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  cursor : pointer;
   ${(props) => getButtonStyles(props)}
 `;
 
