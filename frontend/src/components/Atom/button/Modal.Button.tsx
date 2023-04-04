@@ -20,12 +20,16 @@ const getButtonStyles = ({ label }: ModalButtonTypes) => {
 };
 
 const Button = styled.button<ModalButtonTypes>`
+  
+
   width: 10rem;
   hight: 2.5rem;
   padding: 0.7rem;
   border-radius: 20px;
   font-weight : bolder;
   border :none;
+  margin-top :15px;
+  margin-bottom: 40px;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   ${(props) => getButtonStyles(props)}
 `;
