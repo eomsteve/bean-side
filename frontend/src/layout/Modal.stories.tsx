@@ -51,3 +51,11 @@ Basic.args = {
   children : <div></div>,
   label : "닫기"
 }
+
+export const Check = Template.bind({});
+Check.args = {
+  title : "정산현황",
+  closeFn: ()=> {},
+  children : <div></div>,
+  label : "닫기"
+}

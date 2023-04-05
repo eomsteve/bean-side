@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/react';
 import { FC } from 'react';
 
-interface ModalButtonTypes {
+export interface ModalButtonTypes {
   label: '시작' | '확인' | '닫기' | '삭제';
 }
 
