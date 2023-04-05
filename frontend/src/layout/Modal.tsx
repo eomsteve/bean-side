@@ -17,11 +17,12 @@ import { css } from '@emotion/react';
 import ModalButton from '../components/Atom/button/Modal.Button';
 import ModalClose from '../components/Atom/button/Modal.Close';
 import ModalTitle from '../components/Atom/Text/Modal.Title';
+import type {ModalButtonTypes} from '../components/Atom/button/Modal.Button';
 interface ModalBasic {
   closeFn: () => void;
   children: React.ReactNode;
   title?: string;
-  label: string;
+  label: '시작' | '확인' | '닫기' | '삭제';
 }
 
 const ModalContents = styled.div`
@@ -50,7 +51,7 @@ const Modal: FC<ModalBasic> = ({ children, closeFn, title, label }) => {
         {title ? <ModalTitle title={title}/> : ''}
       </ModalHeader>
       {children}
-      <ModalButton label={'닫기'} />
+      <ModalButton label={label} />
     </ModalContents>
   );
 };
