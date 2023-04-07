@@ -1,0 +1,8 @@
+{
+  /*
+  <Container>
+    <RandomButton/>
+    <InputNameList />
+  </Container>
+  */
+}
