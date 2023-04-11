@@ -17,7 +17,7 @@ import { css } from '@emotion/react';
 import ModalButton from '../components/Atom/button/Modal.Button';
 import ModalClose from '../components/Atom/button/Modal.Close';
 import ModalTitle from '../components/Atom/Text/Modal.Title';
-import type {ModalButtonTypes} from '../components/Atom/button/Modal.Button';
+import type { ModalButtonTypes } from '../components/Atom/button/Modal.Button';
 interface ModalBasic {
   closeFn: () => void;
   children: React.ReactNode;
@@ -38,7 +38,6 @@ const ModalContents = styled.div`
   padding: 15px;
 `;
 
-
 const ModalHeader = styled.div`
   width: 100%;
 `;
@@ -48,7 +47,7 @@ const Modal: FC<ModalBasic> = ({ children, closeFn, title, label }) => {
     <ModalContents>
       <ModalHeader>
         <ModalClose closeFn={closeFn} />
-        {title ? <ModalTitle title={title}/> : ''}
+        {title ? <ModalTitle title={title} /> : ''}
       </ModalHeader>
       {children}
       <ModalButton label={label} />
